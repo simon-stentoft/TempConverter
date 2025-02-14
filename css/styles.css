@@ -1,0 +1,38 @@
+@import "variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--colorBgMain);
+}
+header {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: var(--colorMain);
+  color: var(--colorBgMain);
+}
+.container {
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+input,
+select,
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 12rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: green;
+}
+button {
+  cursor: pointer;
+}
